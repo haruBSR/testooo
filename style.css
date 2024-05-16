@@ -1,0 +1,108 @@
+header{
+    width: 100%;
+    height: 320px;
+    background: url(../IMG/download-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.headcontainer{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 20px;
+}
+
+header ul{
+    list-style: none;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header h2{
+    text-align:center;
+    margin: 100px;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+
+}
+
+nav li{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    border-left: 1px dotted black ;
+}
+.ab{
+    border-right: 1px dotted black;
+}
+
+.container{
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+}
+
+.item01{
+    width: 70%;
+}
+.item01 h2{
+    text-align: center;
+    border-bottom:1px solid navy ;
+}
+.item01 img{
+    width: 99%;
+}
+
+.item02{
+    width: 25%;
+}
+
+.item02 h2{
+    font-size: 17px;
+    text-align: center;
+}
+.item02 ul{
+    list-style: none;
+    padding-left:0px ;
+}
+
+.item02 li{
+    border-bottom: 1px dotted black;
+}
+
+.articlecontainer{
+    display: flex;    
+}
+
+.articleitem{
+    width: 47%;
+}
+.articleitem img{
+    width: 99%;
+}
+
+.articleitem p{
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    background-color: yellow;
+    margin: 0px;
+    padding: 30px 0px;
+}
+
+footer h2{
+    text-align: center;
+font-size: 16px;
+}
+
+
+
